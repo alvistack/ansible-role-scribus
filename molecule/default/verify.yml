@@ -21,4 +21,5 @@
     - name: scribus --version
       command: scribus --version
       register: result
-      changed_when: result is not succeeded
+      changed_when: false
+      failed_when: "'not connect' not in result.stderr"
