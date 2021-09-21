@@ -1,5 +1,7 @@
 # Ansible Role for Scribus
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-scribus/master)](https://gitlab.com/alvistack/ansible-role-scribus/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-scribus.svg)](https://github.com/alvistack/ansible-role-scribus/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-scribus.svg)](https://github.com/alvistack/ansible-role-scribus/blob/master/LICENSE)
