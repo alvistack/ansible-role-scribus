@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: scribus
-      tags: scribus
+        name: alvistack.scribus
+      tags: alvistack.scribus
