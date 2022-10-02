@@ -20,7 +20,8 @@
   become: true
   tasks:
     - name: scribus --version
-      ansible.builtin.command: scribus --version
+      ansible.builtin.command:
+        cmd: scribus --version
       register: result
       changed_when: false
       failed_when: "'not connect' not in result.stderr"
