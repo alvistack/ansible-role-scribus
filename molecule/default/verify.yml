@@ -19,9 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: scribus --version
+    - name: flatpak info net.scribus.Scribus
       ansible.builtin.command:
-        cmd: scribus --version
+        cmd: flatpak info net.scribus.Scribus
       register: result
-      changed_when: false
-      failed_when: "'not connect' not in result.stderr"
+      changed_when: result is not succeeded
